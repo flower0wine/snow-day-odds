@@ -23,3 +23,5 @@ section { overflow-wrap: anywhere; }
 table { table-layout: fixed; }
 th:nth-child(1), td:nth-child(1) { width: 34%; }
 @media (max-width: 480px) { section { padding: 18px 16px; } .hero { padding: 24px 20px; } th, td { font-size: 14px; } }
+
+.hero p { color: rgba(255,255,255,.88); opacity: 1; }
